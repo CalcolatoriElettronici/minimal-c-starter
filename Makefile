@@ -15,4 +15,7 @@ $(EXECUTABLE): $(OBJECTS)
 clean:
 	-rm -rf $(OBJECTS)
 
+test:
+	./$(EXECUTABLE) # TODO
+
 .PHONY: clean
